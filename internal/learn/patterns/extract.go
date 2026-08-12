@@ -10,7 +10,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/learn/lookups"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/learn/lookups"
 )
 
 // extractWindow caps how many of the most-recently-observed

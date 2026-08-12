@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/learn"
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/store"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/learn"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/store"
 )
 
 // seedCandidate derives one candidate row directly through the store

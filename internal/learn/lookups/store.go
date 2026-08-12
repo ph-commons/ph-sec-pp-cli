@@ -12,7 +12,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/cliutil"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/cliutil"
 )
 
 // LookupRow is the canonical seed-row shape used by both the seeds

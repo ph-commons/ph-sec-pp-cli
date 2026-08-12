@@ -6,7 +6,7 @@ package main
 import (
 	"os"
 
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/cli"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/cli"
 )
 
 func main() {

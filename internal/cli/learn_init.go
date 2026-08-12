@@ -23,9 +23,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/learn/entities"
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/learn/lookups"
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/store"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/learn/entities"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/learn/lookups"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/store"
 )
 
 // newLearnConfig returns the per-CLI entity extractor Config the

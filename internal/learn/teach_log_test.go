@@ -11,7 +11,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/cliutil"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/cliutil"
 )
 
 func withTempHomeForLog(t *testing.T) string {

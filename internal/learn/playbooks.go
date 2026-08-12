@@ -13,7 +13,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/learn/entities"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/learn/entities"
 )
 
 // EntityResolver looks up a token in entity_lookups to find its

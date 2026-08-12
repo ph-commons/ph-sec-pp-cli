@@ -12,7 +12,7 @@ import (
 	"strings"
 
 	"github.com/spf13/cobra"
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/cliutil"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/cliutil"
 )
 
 func newExportCmd(flags *rootFlags) *cobra.Command {

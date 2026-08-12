@@ -12,7 +12,7 @@ import (
 
 	_ "modernc.org/sqlite"
 
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/learn/entities"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/learn/entities"
 )
 
 // stubResolver is a test-only EntityResolver backed by an in-memory

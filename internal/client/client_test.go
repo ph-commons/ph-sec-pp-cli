@@ -14,7 +14,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/config"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/config"
 )
 
 func TestTruncateBody(t *testing.T) {

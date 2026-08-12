@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/cliutil"
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/config"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/cliutil"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/config"
 )
 
 func resetCredentialEnv(t *testing.T) (home, configPath string) {

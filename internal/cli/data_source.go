@@ -17,8 +17,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/client"
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/store"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/client"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/store"
 )
 
 const networkFallbackReason = "api_unreachable"

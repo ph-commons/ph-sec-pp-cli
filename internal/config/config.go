@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/pelletier/go-toml/v2"
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/cliutil"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/cliutil"
 )
 
 type Config struct {

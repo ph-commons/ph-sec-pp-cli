@@ -17,14 +17,14 @@ import (
 
 	mcplib "github.com/mark3labs/mcp-go/mcp"
 	"github.com/mark3labs/mcp-go/server"
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/cli"
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/client"
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/cliutil"
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/config"
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/learn"
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/mcp/bound"
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/mcp/cobratree"
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/store"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/cli"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/client"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/cliutil"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/config"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/learn"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/mcp/bound"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/mcp/cobratree"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/store"
 )
 
 const (

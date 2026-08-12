@@ -10,7 +10,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/store"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/store"
 )
 
 // Teach-time playbook synthesis. When an agent teaches a resource

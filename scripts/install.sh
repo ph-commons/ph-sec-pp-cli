@@ -2,18 +2,18 @@
 #
 # ph-sec-pp-cli fleet installer — idempotent, macOS + Linux.
 #
-#   curl -fsSL https://raw.githubusercontent.com/ngpestelos/ph-sec-pp-cli/main/scripts/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/ph-commons/ph-sec-pp-cli/main/scripts/install.sh | bash
 #
 # Prefers the prebuilt GitHub release (no local modernc.org/sqlite compile).
 # Falls back to `go install` only when the download cannot be resolved.
 
 set -euo pipefail
 
-MODULE="github.com/ngpestelos/ph-sec-pp-cli"
+MODULE="github.com/ph-commons/ph-sec-pp-cli"
 BIN="ph-sec-pp-cli"
 MCP="ph-sec-pp-mcp"
 GOBIN_DIR="${GOBIN:-$HOME/.local/bin}"
-OWNER_REPO="ngpestelos/ph-sec-pp-cli"
+OWNER_REPO="ph-commons/ph-sec-pp-cli"
 
 log() { printf '\033[1;34m==>\033[0m %s\n' "$*"; }
 warn() { printf '\033[1;33mwarn:\033[0m %s\n' "$*" >&2; }
@@ -74,4 +74,4 @@ case ":$PATH:" in
 esac
 
 log "Live use requires: export PH_SEC_TOKEN=<Marketplace Free package OAuth bearer>"
-log "See: https://github.com/ngpestelos/ph-sec-pp-cli#free-still-requires-a-token"
+log "See: https://github.com/ph-commons/ph-sec-pp-cli#free-still-requires-a-token"

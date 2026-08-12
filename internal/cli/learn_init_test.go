@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/learn"
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/store"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/learn"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/store"
 )
 
 // TestNewLearnConfig_BuildsConfig pins that the emitted init shim

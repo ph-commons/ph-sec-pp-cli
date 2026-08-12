@@ -1,4 +1,4 @@
-module github.com/ngpestelos/ph-sec-pp-cli
+module github.com/ph-commons/ph-sec-pp-cli
 
 go 1.26.5
 

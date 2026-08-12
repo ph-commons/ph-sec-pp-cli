@@ -31,9 +31,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/cli/playbooks"
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/learn"
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/store"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/cli/playbooks"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/learn"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/store"
 )
 
 // playbookSeedSentinelFamily is the synthetic query_family used to

@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/learn/entities"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/learn/entities"
 )
 
 // EntityMatch classifies how well a stored learning's resource-side

@@ -15,11 +15,11 @@ import (
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/client"
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/cliutil"
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/config"
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/learn"
-	"github.com/ngpestelos/ph-sec-pp-cli/internal/store"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/client"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/cliutil"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/config"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/learn"
+	"github.com/ph-commons/ph-sec-pp-cli/internal/store"
 )
 
 type rootFlags struct {

@@ -38,4 +38,4 @@ require (
 // behind `//go:build windows`, so running `go mod tidy` under GOOS=linux/darwin
 // re-marks this // indirect (that GOOS compiles no file that imports it); under
 // GOOS=windows it stays direct. That is tolerated churn, NOT a bug to "fix".
-require golang.org/x/sys v0.47.0
+require golang.org/x/sys v0.48.0

@@ -8,7 +8,7 @@ require (
 	github.com/spf13/pflag v1.0.10
 )
 
-require modernc.org/sqlite v1.61.0
+require modernc.org/sqlite v1.61.1
 
 require github.com/mark3labs/mcp-go v1.4.0
 
